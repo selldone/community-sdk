@@ -1,8 +1,8 @@
-import { APIAbstract } from "../../core/server/APIAbstract";
+import { APIAbstract } from "@core/server/APIAbstract";
 import CAPI from "./apis/CAPI";
 import getInfo from "./requests/capi.community.get";
-import type { Shop } from "../../core/models/shop/shop.model";
-import type { Community } from "../../core/models/community/community.model";
+import type { Shop } from "@core/models/shop/shop.model";
+import type { Community } from "@core/models/community/community.model";
 import { CapiPost } from "./post/CapiPost";
 
 const SDK_VERSION = "0.01";

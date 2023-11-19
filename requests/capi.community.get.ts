@@ -13,9 +13,9 @@
  */
 
 import { CapiCommunity } from "../CapiCommunity";
-import type { Community } from "../../../core/models/community/community.model";
-import type { CommunityCategory } from "../../../core/models/community/community.category.model";
-import type { CommunityData } from "../../../core/models/community/community.data.model";
+import type { Community } from "@core/models/community/community.model";
+import type { CommunityCategory } from "@core/models/community/community.category.model";
+import type { CommunityData } from "@core/models/community/community.data.model";
 
 export default function getInfo(
   this: CapiCommunity,

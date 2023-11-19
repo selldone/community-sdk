@@ -12,7 +12,7 @@
  * Tread carefully, for you're treading on dreams.
  */
 
-import { CommunityPost } from "../../../../core/models/community/community.post.model";
+import { CommunityPost } from "@core/models/community/community.post.model";
 import { CapiPost } from "../CapiPost";
 
 export default function searchPosts(

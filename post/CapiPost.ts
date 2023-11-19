@@ -1,5 +1,5 @@
 import searchPosts from "./requests/capi.posts.search";
-import {APIAbstract} from "../../../core/server/APIAbstract";
+import {APIAbstract} from "@core/server/APIAbstract";
 
 export class CapiPost extends APIAbstract {
   public searchPosts = searchPosts;
