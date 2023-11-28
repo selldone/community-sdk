@@ -18,10 +18,14 @@ import getInfo from "./requests/capi.community.get";
 import type { Shop } from "@core/models/shop/shop.model";
 import type { Community } from "@core/models/community/community.model";
 import { CapiPost } from "./post/CapiPost";
+import { CommunityRoutesName } from "@core/enums/route/CommunityRoutesName";
 
 const SDK_VERSION = "0.01";
 
 export class CapiCommunity extends APIAbstract {
+
+  public routes = CommunityRoutesName;
+
   static Setup(): void {
     console.log("┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓");
     console.log(`┣━━━ Selldone® Community SDK | V${SDK_VERSION} ━━━┫`);
