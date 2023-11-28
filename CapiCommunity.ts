@@ -29,7 +29,6 @@ export class CapiCommunity extends APIAbstract {
 
     window.CAPI = new CAPI(); // Community API
 
-
     window.$community = new CapiCommunity();
   }
 
