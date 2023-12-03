@@ -1,3 +1,5 @@
+![License](https://img.shields.io/github/license/selldone/community-sdk.svg)
+
 # Selldone ⮕ Community SDK
 
 * **Mode:** 🌍 Public
