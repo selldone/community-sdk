@@ -12,9 +12,9 @@
  * Tread carefully, for you're treading on dreams.
  */
 
-import SetupService from "@core/server/SetupService";
+import { SetupService } from "@core/server/SetupService";
 
-export default class CAPI {
+export class CAPI {
   selldone_capi_url = "";
 
   constructor() {
