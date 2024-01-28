@@ -20,7 +20,7 @@ import type { Community } from "@core/models/community/community.model";
 import { CapiPost } from "./post/CapiPost";
 import { CommunityRoutesName } from "@core/enums/route/CommunityRoutesName";
 
-const SDK_VERSION = "0.01";
+const SDK_VERSION = "0.02";
 
 export class CapiCommunity extends APIAbstract {
 
