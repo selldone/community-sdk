@@ -1,6 +1,8 @@
+# Selldone ⮕ Community SDK
+
+![Selldone](https://img.shields.io/badge/type-Selldone-f39f37?style=flat&label=Community&labelColor=%23567&color=%23000)
 ![License](https://img.shields.io/github/license/selldone/community-sdk.svg)
 
-# Selldone ⮕ Community SDK
 
 * **Mode:** 🌍 Public
 * **Use case:** To create and manage and view community for both admins and users.
