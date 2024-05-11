@@ -12,11 +12,11 @@
  * Tread carefully, for you're treading on dreams.
  */
 
-import { SetupService } from "@core/server/SetupService";
-import { ShopURLs } from "@core/helper/url/ShopURLs";
-import type { Shop } from "@core/models/shop/shop.model";
-import type { CommunityPost } from "@core/models/community/community.post.model";
-import type { CommunityComment } from "@core/models/community/community.comment.model";
+import { SetupService } from "@selldone/core-js/server/SetupService";
+import { ShopURLs } from "@selldone/core-js/helper/url/ShopURLs";
+import type { Shop } from "@selldone/core-js/models/shop/shop.model";
+import type { CommunityPost } from "@selldone/core-js/models/community/community.post.model";
+import type { CommunityComment } from "@selldone/core-js/models/community/community.comment.model";
 
 export class CommunityURLs {
   static CommunityUrl(shop: Shop) {

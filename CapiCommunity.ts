@@ -12,13 +12,13 @@
  * Tread carefully, for you're treading on dreams.
  */
 
-import { APIAbstract } from "@core/server/APIAbstract";
+import { APIAbstract } from "@selldone/core-js/server/APIAbstract";
 import { CAPI } from "./apis/CAPI";
 import getInfo from "./requests/capi.community.get";
-import type { Shop } from "@core/models/shop/shop.model";
-import type { Community } from "@core/models/community/community.model";
+import type { Shop } from "@selldone/core-js/models/shop/shop.model";
+import type { Community } from "@selldone/core-js/models/community/community.model";
 import { CapiPost } from "./post/CapiPost";
-import { CommunityRoutesName } from "@core/enums/route/CommunityRoutesName";
+import { CommunityRoutesName } from "@selldone/core-js/enums/route/CommunityRoutesName.ts";
 
 const SDK_VERSION = "0.02";
 
