@@ -13,6 +13,31 @@
 🛍️ Go to the [**Full Storefront Project ▶**](https://github.com/selldone/storefront)
 
 
+## Installation
+
+To install Selldone Core in your project, use the following command:
+
+
+```bash
+npm install @selldone/sdk-community
+```
+```bash
+yarn add @selldone/sdk-community
+```
+
+## Usage
+
+Here's a basic example to get you started:
+
+```javascript
+import {CapiCommunity} from "@selldone/sdk-community";
+
+// ━━━ Community SDK (capi) ━━━
+CapiCommunity.Setup(); // Setup community.
+```
+
+
+
 ---
 
 ## License
