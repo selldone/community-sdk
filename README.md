@@ -1,5 +1,7 @@
 # Selldone ⮕ Community SDK
 
+
+<a href="https://www.npmjs.com/package/@selldone/sdk-community"><img src="https://img.shields.io/npm/v/@selldone/sdk-community.svg?sanitize=true" alt="Version"></a>
 ![Selldone](https://img.shields.io/badge/type-Selldone-f39f37?style=flat&label=Community&labelColor=%23567&color=%23000)
 ![License](https://img.shields.io/github/license/selldone/community-sdk.svg)
 
