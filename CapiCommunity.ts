@@ -18,7 +18,7 @@ import getInfo from "./requests/capi.community.get";
 import type { Shop } from "@selldone/core-js/models/shop/shop.model";
 import type { Community } from "@selldone/core-js/models/community/community.model";
 import { CapiPost } from "./post/CapiPost";
-import { CommunityRoutesName } from "@selldone/core-js/enums/route/CommunityRoutesName.ts";
+import { CommunityRoutesName } from "@selldone/core-js/enums/route/CommunityRoutesName";
 
 const SDK_VERSION = "0.02";
 
