@@ -21,7 +21,6 @@ export class CapiPost extends APIAbstract {
   constructor() {
     super();
   }
-
 }
 
 //█████████████████████████████████████████████████████████████
