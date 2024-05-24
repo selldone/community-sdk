@@ -1,9 +1,11 @@
 {
   "name": "@selldone/sdk-community",
-  "version": "1.5.23",
+  "version": "1.5.24",
   "private": false,
   "type": "module",
   "author": "Mehrdad Pajuhaan <mehrdad@selldone.com> (https://selldone.com)",
+  "description": "SDK for open-source community builder. You can build a custom white-label community from scratch using the serverless Selldone business OS solution.",
+
   "main": "index.ts",
   "scripts": {
     "build": "tsc",
