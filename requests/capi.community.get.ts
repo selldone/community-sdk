@@ -12,16 +12,16 @@
  * Tread carefully, for you're treading on dreams.
  */
 
-import { CapiCommunity } from "../CapiCommunity";
-import type { Community } from "@selldone/core-js/models/community/community.model";
-import type { CommunityCategory } from "@selldone/core-js/models/community/community.category.model";
-import type { CommunityData } from "@selldone/core-js/models/community/community.data.model";
+import {CapiCommunity} from "../CapiCommunity";
+import type {Community} from "@selldone/core-js/models/community/community.model";
+import type {CommunityCategory} from "@selldone/core-js/models/community/community.category.model";
+import type {CommunityData} from "@selldone/core-js/models/community/community.data.model";
 
 export default function getInfo(
   this: CapiCommunity,
   community_id: number,
   offset?: number,
-  days?: number
+  days?: number,
 ) {
   if (!community_id) throw Error("Not valid community id!");
   const params = { offset: offset, days: days };
